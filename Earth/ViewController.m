@@ -7,23 +7,20 @@
 //
 
 #import "ViewController.h"
-
+#import "CustomView.h"
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad
+- (void)loadView
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    CustomView* customView = [CustomView new];
+    self.view = customView;
+
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 @end

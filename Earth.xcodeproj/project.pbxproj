@@ -21,6 +21,8 @@
 		335AA1121984E7FE007E8CE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335AA0F41984E7FE007E8CE6 /* UIKit.framework */; };
 		335AA11A1984E7FE007E8CE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 335AA1181984E7FE007E8CE6 /* InfoPlist.strings */; };
 		335AA11C1984E7FE007E8CE6 /* EarthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 335AA11B1984E7FE007E8CE6 /* EarthTests.m */; };
+		335AA1261984E8A2007E8CE6 /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 335AA1251984E8A2007E8CE6 /* earth.png */; };
+		335AA12F1984EC3D007E8CE6 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 335AA12E1984EC3D007E8CE6 /* CustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		335AA1171984E7FE007E8CE6 /* EarthTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EarthTests-Info.plist"; sourceTree = "<group>"; };
 		335AA1191984E7FE007E8CE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		335AA11B1984E7FE007E8CE6 /* EarthTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthTests.m; sourceTree = "<group>"; };
+		335AA1251984E8A2007E8CE6 /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth.png; sourceTree = "<group>"; };
+		335AA12D1984EC3D007E8CE6 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		335AA12E1984EC3D007E8CE6 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +117,14 @@
 		335AA0F61984E7FE007E8CE6 /* Earth */ = {
 			isa = PBXGroup;
 			children = (
+				335AA1251984E8A2007E8CE6 /* earth.png */,
 				335AA0FF1984E7FE007E8CE6 /* AppDelegate.h */,
 				335AA1001984E7FE007E8CE6 /* AppDelegate.m */,
 				335AA1021984E7FE007E8CE6 /* Main.storyboard */,
 				335AA1051984E7FE007E8CE6 /* ViewController.h */,
 				335AA1061984E7FE007E8CE6 /* ViewController.m */,
+				335AA12D1984EC3D007E8CE6 /* CustomView.h */,
+				335AA12E1984EC3D007E8CE6 /* CustomView.m */,
 				335AA1081984E7FE007E8CE6 /* Images.xcassets */,
 				335AA0F71984E7FE007E8CE6 /* Supporting Files */,
 			);
@@ -228,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				335AA1261984E8A2007E8CE6 /* earth.png in Resources */,
 				335AA1091984E7FE007E8CE6 /* Images.xcassets in Resources */,
 				335AA0FB1984E7FE007E8CE6 /* InfoPlist.strings in Resources */,
 				335AA1041984E7FE007E8CE6 /* Main.storyboard in Resources */,
@@ -250,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				335AA1071984E7FE007E8CE6 /* ViewController.m in Sources */,
+				335AA12F1984EC3D007E8CE6 /* CustomView.m in Sources */,
 				335AA1011984E7FE007E8CE6 /* AppDelegate.m in Sources */,
 				335AA0FD1984E7FE007E8CE6 /* main.m in Sources */,
 			);
@@ -456,6 +466,7 @@
 				335AA1211984E7FE007E8CE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		335AA1221984E7FE007E8CE6 /* Build configuration list for PBXNativeTarget "EarthTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +475,7 @@
 				335AA1241984E7FE007E8CE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
